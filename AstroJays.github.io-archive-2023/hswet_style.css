@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #4a7c59;
+    --secondary-color: #2c5530;
+    --accent-color: #8fbc8f;
+    --text-color: #333;
+    --background-color: #f4f8f6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.sub-header {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+.nav-links ul li a {
+    color: #fff;
+}
+
+.nav-links ul li::after {
+    background: var(--accent-color);
+}
+
+.contact-btn {
+    border: 1px solid var(--accent-color);
+    color: #fff;
+}
+
+.contact-btn:hover {
+    background: var(--accent-color);
+}
+
+.hero-btn {
+    border: 1px solid var(--accent-color);
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.hero-btn:hover {
+    background: var(--secondary-color);
+}
+
+h1, h2, h3 {
+    color: var(--secondary-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.footer .icons a {
+    color: #fff;
+}
+
+.footer .fa-heart {
+    color: var(--accent-color);
+}
+
+/* Add more specific styles as needed */
+
+.subteam-col, .project-col {
+    background-color: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+.subteam-col h3, .project-col h3 {
+    color: var(--primary-color);
+}
+
+.about-col img {
+    border: 2px solid var(--primary-color);
+}
+
+/* Form styles */
+form input, form textarea {
+    border: 1px solid var(--primary-color);
+}
+
+form .hero-btn {
+    background: var(--primary-color);
+}
+
+form .hero-btn:hover {
+    background: var(--secondary-color);
+}
